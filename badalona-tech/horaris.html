@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>horaris</title>
 </head>
 <body>
-    
+
+    <header>
+   
+        <div class="logo-titulo">
+            <div class="textos-header">
+                <h1>Badalona Tech 2027</h1>
+                <p>Fira de tecnologia, informació i innovació</p>
+            </div>
+        </div>
+
+  
+        <nav>
+            <ul>
+                <button><li><a href="index.html" class="activo">Inici</a></li></button>
+                <button><li><a href="activitats.html">Activitats</a></li></button>
+                <button><li><a href="horaris.html">Horaris</a></li></button>
+                <button><li><a href="inscripcion.html">Inscripció</a></li></button>
+            </ul>
+        </nav>
+    </header>
+
+
+    <table>
+        <thead>
+            <tr>
+                <td>horari</td>
+                <td>dissabte</td>
+                <td>diumenge</td>
+            </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>10:00-11:00</td>
+            <td>taller de robotica</td>
+            <td>crea la teva primera webp</td>
+        </tr>
+        <tr>
+            <td>11:00-12:00</td>
+            <td>ciberseguretat</td>
+            <td>taller de robotica</td>
+        </tr>
+        <tr>
+            <td>12:00-13:00</td>
+            <td>crea la teva primera webp</td>
+            <td>ciberseguretat</td>
+        </tr>
+        <tr>
+            <td>13:00-14:00</td>
+            <td colspan="2">descans i vista lliure</td>
+        </tr>
+       </tbody>
+       <tfoot>
+           <tr>
+            <td colspan="3">Total: 6 activitats programades</td>
+           </tr>
+       </tfoot>
+    </table>
+
+    <p>Ves directament al taller de robotica</p>
+    <a href="activitats.html">taller</a>
 </body>
-</html>
